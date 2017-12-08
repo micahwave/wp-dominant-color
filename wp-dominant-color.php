@@ -1,5 +1,7 @@
 <?php
 
+if ( function_exists( 'gd_info' ) ) {
+
 class WP_Dominant_Color {
 
 	/**
@@ -99,3 +101,5 @@ class WP_Dominant_Color {
 	}
 }
 new WP_Dominant_Color();
+
+}
