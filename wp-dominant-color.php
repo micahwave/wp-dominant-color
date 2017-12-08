@@ -88,7 +88,7 @@ class WP_Dominant_Color {
 		// get the color value at 0, 0
 		$index = imagecolorat( $im, 0, 0 );
 
-		// translate into something more parseable
+		// translate into something more parsable
 		$rgb = imagecolorsforindex( $im, $index );
 
 		// get the hex value too
